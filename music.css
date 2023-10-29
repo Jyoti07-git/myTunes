@@ -1,0 +1,261 @@
+*{
+    margin:0;
+    padding:0;
+}
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color:rgba(70, 68, 68, 0.859);
+    z-index: 100;
+    position: fixed;
+    top:0;
+    width:100%;}
+    /* navigation bar starts here*/
+    
+    
+   
+
+.nav a{
+   text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+    
+    
+}
+ .nav a:hover{
+    background-color: dimgrey;
+}/*background color will be changed when you hover on nav bar*/
+/*nav bar ends here*/
+.sec1{
+    height: 100vh;
+   background-image: url(music.avif);
+    
+}/*the first section of mTunes statrts here*/
+.sec1 h1{
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    padding-top: 50px;
+   
+}
+.sec1 h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+.sec1 p{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+}/* first section ends here*/
+.sec2{
+    height:150vh;
+    background-color: rgba(70, 68, 68, 0.859);
+}
+/*here starts section 2 of the web page*/
+.sec2 h1{
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+}
+.sec2 h2{
+    color:white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 40px;
+}
+.sec2 p{
+    color: white;
+    padding-top: 20px;
+    margin-left: 75px;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-right: 50px;
+    
+}
+button{
+    color:white;
+    background-color:darkred;
+  margin-left: 594px;
+    padding-top: 15px;
+    margin-top: 45px;
+    text-align: center;
+    border-color:darkred;
+    cursor:pointer;
+
+}
+button:hover{
+    background-color:  red;
+}/*the background color will be change when you hover on the button*/
+p{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+}
+img{
+    width: 1000px;
+    height:500px;
+    margin-top: 50px;
+    margin-left: 200px;
+    
+}/*this img is under section2 bar*/
+/*section2 is end here*/
+.sec3{
+    height: 200vh;
+}
+/*section 3 of the web page is start here*/
+.sec3 h1{
+    padding-top: 75px;
+    font-size: 30px;
+    margin-left: 350px;
+}
+.sec3 p{
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 200;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-style: italic;
+}
+.sec3 button{
+    background-color:blue;
+    padding:15px;
+    margin:auto;
+    color:white;
+    margin-top: 50px;
+    margin-left: 600px;
+    border-color: blue;
+    cursor:pointer;
+}
+ .sec3 button:hover{
+    background-color: darkblue;
+}
+/*button color will be change on hover */
+ .sec3 img {
+    margin-left: 144px;
+    margin-right: 100px;
+    width:1100px;
+    height:689px;
+}
+/*section 3 ends here*/
+.sec4 {
+    
+    height:75vh;
+   
+    background-image: url(night.avif);
+    
+    
+}
+/*section4 of the page starts here*/
+.sec4 h1{
+    padding-top: 117px;
+    margin-left: 300px;
+    color:white;
+    font-size: 35px;
+}
+.sec4 p{
+    margin-top: 75px;
+    color:white;
+    margin-left: 100px;
+    margin-right:100px;
+    font-size: 20px;
+    font-weight: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 5px;
+}
+/*secton4 ends here*/
+.sec5{
+    height:100vh;
+}
+/*section5 starts here*/
+.sec5 img{
+    width:489px;
+    height: 325px;
+}
+.sec5 h2{
+    margin-right:519px;
+    float:right;
+    padding-top: 129px;
+   
+}
+.sec5 p{
+    font-size: 20px;
+    margin-left: 700px;
+    margin-top: -180px;
+    color:grey;
+    
+   
+}
+.sec5 h4{
+    font-size: 20px;
+    margin-left: 700px;
+    margin-top: 15px;
+    color:grey;
+}
+hr{
+    margin-left: 700px;
+    margin-right:30px;
+    margin-top: 15px;
+}
+/*i used css for the customized Hr*/
+h5{
+    margin-left:700px ;
+    margin-top: 10px;
+    color:cornflowerblue;
+    cursor:pointer;
+}
+.footer{
+    height:45vh;
+    background-color: #252529;
+}
+/*footer part starts here*/
+.footer .footer1{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem;
+    
+    font-size: 14px;
+}
+/*footer1 class is under footer section*/
+.footer .footer1 ul{
+    cursor:pointer;
+    font-size: 20px;
+    
+    
+}
+
+.footer .footer1 ul li {
+    list-style-type: none;
+    color:white;
+    font-weight: 100px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.footer .footer1 h4{
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+.footer p{
+    color:white;
+    font-size: 25px;
+    background-color:#333;
+    height:10vh;
+    padding-top: 5px;
+}
+
+/*footer section ends here*/
